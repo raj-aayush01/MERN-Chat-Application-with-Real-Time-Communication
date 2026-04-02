@@ -6,6 +6,7 @@ import Home from './pages/home/Home';
 import { Toaster } from 'react-hot-toast';
 import { useAuthContext } from './context/AuthContext';
 
+// Updated for my submission
 function App() {
     const {authUser} = useAuthContext();
 
